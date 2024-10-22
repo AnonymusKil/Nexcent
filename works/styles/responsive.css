@@ -1,0 +1,127 @@
+@media (min-width: 840px) {
+    .desktop-header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: white;
+        padding: 1rem;
+    }
+    .btn{
+        padding: 9px;
+        border: none;
+        color: white;
+        background-color: green;
+    }
+    nav{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        gap: 1rem;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+    .mobile-nav{
+        display: none;
+    }
+    a:hover{
+        text-decoration: underline green;
+    }
+    .hero-section{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    .hero-section-senior{
+        text-align: left;
+    }
+    .our-clients-container{
+        gap: 9rem;
+        flex-direction: row;
+    }
+    .clients-png{
+        margin-top: 0;
+    }
+    .community-flex-container{
+        flex-direction: row;
+    }
+    .unseen-flex{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+     /* i know this is not the ideal way to center a div  */
+     /* transform translate does not work flex no work so we go the illegal way */
+     /* margin left auto and margin right auto does not work */
+        margin-left: 14rem ;
+        margin-right:14rem ;
+      }
+      .unseen-senior{
+        text-align: left;
+        /* padding: 5rem; */
+      }
+      .local-flex-container{
+        flex-direction: row;
+        gap: 3rem;
+        /* justify-content: space-between; */
+      }
+      .stuffs{
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .stuffs-junior{
+        flex-direction: row;
+      }
+      .local-man{
+        text-align: left;
+        padding: 2rem;
+      }
+      .design-flex-container{
+        flex-direction: row;
+        text-align: left;
+        align-items: center;
+      }
+      .design-senior{
+        text-align: left;
+      }
+      .partner-container-flex{
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        align-items: center;
+      }
+      .kaj{display:block;}
+      .kaj-2{display: none;}
+      .kaj{
+        text-wrap: balance;
+      }
+      .fas{
+        gap: 1rem;
+      }
+      .caring-section-container-1{
+        flex-direction: row;
+      }
+      .mobile{
+        display: none;
+      }
+      .desktop{
+        display: block;
+      }
+      .foooter-container{
+        flex-direction: row;
+        justify-content: space-around;
+      }
+      footer{
+        padding: 2rem;
+      }
+      .partner-container-flex{
+        margin-left: 14rem ;
+        margin-right:14rem ;
+      }
+}

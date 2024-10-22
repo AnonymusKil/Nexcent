@@ -1,0 +1,77 @@
+@media (min-width: 840px) {
+}
+.hero {
+  background-color: var(--color-silver);
+  padding: 5rem 0;
+
+  div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    aside:first-child {
+      flex-basis: 50%;
+    }
+
+    h1 {
+      font-size: 5rem;
+      color: var(--color-d-gray);
+      line-height: 1.1;
+
+      span {
+        color: var(--color-primary);
+      }
+    }
+
+    p {
+      font-size: 1.4rem;
+      margin: 1.5rem 0;
+    }
+  }
+
+  .pagination {
+    width: 5rem;
+    margin: 2rem auto 0;
+
+    button {
+      width: 1rem;
+      border: none;
+      height: 1rem;
+      border-radius: 50%;
+      background-color: #28cb8b57;
+    }
+
+    .active {
+      background-color: var(--color-primary);
+    }
+  }
+}
+ --color-primary: #28cb8b;
+  --color-silver: #f5f7fa;
+  --color-d-gray: #212121;
+  --color-gray:#4d4d4d
+  <div class="pagination">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+        </div>
+         <section class="hero">
+        <div class="container">
+          <aside>
+            <h1>Lessons and insights <span>from 8 years</span></h1>
+            <p>
+              Where to grow your business as a photographer: site or social
+              media
+            </p>
+            <button class="btn btn-primary">Register</button>
+          </aside>
+          <aside>
+            <img src="image/Illustration.svg" alt="hero Illustration" />
+          </aside>
+        </div>
+        <div class="pagination">
+          <button class="active"></button>
+          <button></button>
+          <button></button>
+        </div>
+      </section>
